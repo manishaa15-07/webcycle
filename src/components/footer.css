@@ -2,23 +2,15 @@
 {
     width: 100%;
     height: 600px;
-    /* height: auto; */
     background-image: url('whatsapp.jpeg') ;
-    /* background-image: linear-gradient(black,rgb(133, 128, 128)); */
     background-size: 100% 100%;
     padding-top: 60px;
-    /* filter: brightness(0.7); */
-    border-radius: 20px;
-    /* filter: blur(1); */
     color: white;
-    /* color: black; */
     font-size: 2rem;
     font-family: 'Poppins';
-    /* filter: blur(5px); */
 }
 .follow{
     position: relative;
-    /* top: 100px; */
     padding-left: 50px;
     font-size: 2rem;
     color: white;
@@ -57,13 +49,9 @@ margin-top: 10px;
 }
 .slogan{
     margin-top: 100px;
-    /* margin-left: 200px; */
-    /* background-color: aquamarine; */
     font-size: 4.5rem;
     font-family:cursive;
     display: inline;
-    /* margin-right: 540px; */
-    /* padding-left: 100px; */
 }
 
 #solution{
