@@ -1,0 +1,92 @@
+.footer
+{
+    width: 100%;
+    height: 600px;
+    /* height: auto; */
+    background-image: url('whatsapp.jpeg') ;
+    /* background-image: linear-gradient(black,rgb(133, 128, 128)); */
+    background-size: 100% 100%;
+    padding-top: 60px;
+    /* filter: brightness(0.7); */
+    border-radius: 20px;
+    /* filter: blur(1); */
+    color: white;
+    /* color: black; */
+    font-size: 2rem;
+    font-family: 'Poppins';
+    /* filter: blur(5px); */
+}
+.follow{
+    position: relative;
+    /* top: 100px; */
+    padding-left: 50px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+.allcontent{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.allist ul{
+        list-style-type: none;
+}
+.allist a{
+    font-family: 'Poppins';
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: white;
+    /* color: black; */
+    font-weight: bolder;
+}
+.allist a:hover{
+    color: red;
+}
+#phone{
+margin-top: 10px;
+}
+.follow span{
+    margin-left: 50px;
+    font-size: 2rem;
+}
+.slogan{
+    margin-top: 100px;
+    /* margin-left: 200px; */
+    /* background-color: aquamarine; */
+    font-size: 4.5rem;
+    font-family:cursive;
+    display: inline;
+    /* margin-right: 540px; */
+    /* padding-left: 100px; */
+}
+
+#solution{
+    color: rgb(142, 241, 142);
+    /* color: azure; */
+    font-weight: 700;
+}
+#pollution{
+        color: red;
+        font-weight: 600;
+}
+.icons:hover{
+    color: red;
+    width: 55px;
+    height: 55px;
+}
+.last{
+    background-color: rgb(60, 58, 58);
+    height: 60px;
+    width: 100%;
+    color: white;
+    padding-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

@@ -1,0 +1,89 @@
+body{
+    font-family: 'Poppins';
+}
+.container{
+    height : auto;
+    width : 96%;
+    margin-top : 100px;
+    /* background-color :pink; */
+    padding-top: 20px;
+    padding-left: 50px ;
+    padding-right: 50px;  
+}
+.sustainability p{
+    font-size: 3.5rem;
+     font-family: 'Noto Sans'; 
+}
+.content{
+    font-size: 2.5rem;
+}
+.goals{
+    /* background-color: pink; */
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 30px;
+    border-radius: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 6px 10px 0 rgba(22, 21, 21, 0.2), 0 8px 22px 0 rgba(2, 1, 1, 0.19);
+}
+.para{
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 33%;
+    height: 100px;
+    box-shadow: 10px 10px rgb(45, 43, 43);
+    transform: skew(-15deg);
+   background: linear-gradient(to right, rgb(61, 191, 61) 50%, rgb(149, 172, 154) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 2s ease-out; 
+}
+
+.allgoals{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    /* background-color: aqua; */
+}
+.goal-item:hover .para {
+    background-position: left bottom;
+    /* background: linear-gradient(to right, rgb(61, 191, 61) 50%, rgb(91, 103, 94) 50%); */
+}
+
+
+   
+.images{
+    height: 600px;
+    width: 150%;
+    filter: brightness(0.7);
+    border-radius: 10px;
+    border: 7px solid rgb(168, 240, 168);
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    box-shadow: 0 10px 20px 0 rgba(8, 87, 21, 0.2), 0 12px 28px 0 rgba(8, 85, 20, 0.19);
+    transition:all 0.5s ;
+}
+
+#poverty{
+    background-image: url('poverty.jpg');
+    background-size: 100% 100%;
+}
+#health{
+    background-image: url('health.jpg.avif');
+    background-size: 100% 100%;
+    
+}
+#sanity{
+    background-image: url('sanity.jpeg');
+    width: 270%;
+    background-size: 100% 100%;
+}
+#industry{
+    background-image: url('industry.jpg');
+    background-size: 100% 100%;
+}
+#climate{
+    background-image: url('climate.jpg');
+    background-size: 100% 100%;
+}
