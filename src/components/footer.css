@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: 600px;
-    background-image: url('whatsapp.jpeg') ;
+    background-image: url('./images/whatsapp.jpeg') ;
     background-size: 100% 100%;
     padding-top: 60px;
     color: white;

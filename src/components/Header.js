@@ -27,11 +27,14 @@ export default function Header() {
              <li><a href="/">Eco-Friendly</a></li>
              <li><a href="/">Contact Us</a></li>
              <li><a href="/">About Us</a></li>
-            </ul>
-            <label className="switch">
+             <label className="switch">
   <input type="checkbox"/>
   <span className="slider round"  onClick={toggleMode} mode={mode}></span>
 </label>
+             <li className='login'><a href='/'>Log In</a></li>
+             <li  className='signin'><a href='/'>Sign In</a></li>
+            </ul>
+           
             <div>
    
         </div>
